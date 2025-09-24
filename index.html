@@ -39,23 +39,23 @@
   h2 { margin: 0 0 10px 0; }
   .row { display: flex; gap: var(--gap); flex-wrap: wrap; align-items: center; }
   #question { white-space: pre-line; font-weight: 600; margin: 10px 0; }
-  #answerInput { width: 100%; min-height: 110px; padding: 10px; font-size: 16px; background: #2b2b2b; color: var(--text-color); border: 1px solid #444; border-radius: 8px; }
+  #answerInput { width: 100%; min-height: 110px; padding: 10px; font-size: 16px; background: var(--panel-color); color: var(--text-color); border: 1px solid #444; border-radius: 8px; }
   button { padding: 8px 12px; border: none; border-radius: 10px; cursor: pointer; background: var(--button-bg); color: var(--button-text); transition: background 0.15s ease; }
   button:hover:not(:disabled) { background: var(--button-hover); }
   button:disabled { opacity: .45; cursor: not-allowed; }
-  #correctBox { white-space: pre-line; padding: 10px; background: #232323; border-radius: 8px; border: 1px solid #333; color: var(--accent); }
+  #correctBox { white-space: pre-line; padding: 10px; background: var(--panel-color); border-radius: 8px; border: 1px solid #333; color: var(--accent); }
   #result { font-weight: 700; }
-  .pill { padding: 4px 8px; border-radius: 999px; background: #2f2f2f; color: var(--muted); }
+  .pill { padding: 4px 8px; border-radius: 999px; background: var(--panel-color); color: var(--muted); }
   .spacer { height: 8px; }
   .panel { border: 1px solid #333; border-radius: 12px; padding: 12px; background: var(--panel-color); box-shadow: 0 1px 6px rgba(0,0,0,.6); }
   label { color: var(--muted); }
-  input[type="number"] { background:#222; color:var(--text-color); border:1px solid #444; border-radius:6px; padding:6px; width:80px; }
+  input[type="number"] { background: var(--panel-color); color: var(--text-color); border:1px solid #444; border-radius:6px; padding:6px; width:80px; }
   input[type="checkbox"] { transform:scale(1.05); }
 
   #checkBtn { display: none !important; }
   #selfTestBox { display: none !important; visibility: hidden !important; height: 0 !important; margin: 0 !important; padding: 0 !important; }
 
-  /* кнопка переключения */ 
+  /* кнопка переключения */
   #themeToggle {
     margin-left: auto;
   }
